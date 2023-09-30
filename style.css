@@ -1,0 +1,38 @@
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  /* Set a background color and font family */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the clock */
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the banner */
+  #banner {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  
+  /* Style the clock display */
+  #clock {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
